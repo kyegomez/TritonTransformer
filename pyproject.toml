@@ -3,7 +3,7 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "triton-transformer"
+name = "tt"
 version = "0.0.1"
 description = "Triton Transformer - Pytorch"
 license = "MIT"
@@ -25,6 +25,7 @@ classifiers = [
 python = "^3.9"
 torch = "*"
 triton = "*"
+pytest = "*"
 
 
 [tool.poetry.dev-dependencies]
